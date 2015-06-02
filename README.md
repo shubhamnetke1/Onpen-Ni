@@ -97,9 +97,11 @@ Run: `make`
 
 ## Building for Android
 
-These instructions assume **Android KitKat** which reached roughly 40% adoption in May 2015 per Google's [Dashboard](http://developer.android.com/about/dashboards/index.html) page. Please refer to [this issue](https://github.com/occipital/OpenNI2/issues/43) for updated information regarding OpenNI2 on Android Lollipop.
+These instructions assume a device running **Android KitKat**. The samples NiViewer, SimpleRead, and SimpleViewer were tested and found to run succesfully on a Nexus 7 running Android 4.4.4.  **Please** ensure you are using a high quality USB OTG cable!
 
-They also focus on **Eclipse** with the **ADT plugin**. As of the May 2015 Android Studio's NDK support continues to be reported as incomplete and is therefore not recommended as a build environment.
+Please refer to [this issue](https://github.com/occipital/OpenNI2/issues/43) for updated information regarding OpenNI2 on Android Lollipop.
+
+The build instructions presented here focus on **Eclipse** with the **ADT plugin**. As of the May 2015 Android Studio's NDK support continues to be reported as incomplete and is therefore not recommended as a build environment.
 
 ### Build Prerequisites (All Hosts)
 

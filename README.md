@@ -120,7 +120,7 @@ The build instructions presented here focus on **Eclipse** with the **ADT plugin
   - Install the **Eclipse ADT plugin**:
     - Follow [these instructions](http://developer.android.com/sdk/installing/installing-adt.html) for downloading and configuring the Eclipse ADT plugin.
 
-### Build Prequisites (Windows Hosts)
+### Build Prerequisites (Windows Hosts)
 
   - Download and install the following Windows software:
     - [JDK 6.0](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u32-downloads-1594644.html)

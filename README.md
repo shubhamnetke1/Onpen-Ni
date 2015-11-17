@@ -147,14 +147,14 @@ Download and install the following Linux software:
 
 ### Build Instructions (All Hosts)
 
-  - Create an Eclipse workspace at the root of the OpenNI2 hierarchy.
-  - Import all projects under root directory.
+  - Go to `Eclipse -> Import... -> Android -> Existing Android Code Into Workspace`
+  - Select the root directory of OpenNI2.
   - Projects found should include:
     - `NiViewer`
     - `OpenNIForAndroid`
     - `SimpleRead`
     - `SimpleViewer`
-  - Set the Project Build Target for all imported projects .
+  - Set the Project Build Target for all imported projects.
 
 
 ## Packaging

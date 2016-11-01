@@ -162,4 +162,7 @@ Download and install the following Linux software:
 - Go into the directory `Packaging`
 - Run `ReleaseVersion.py [x86|x64|Arm|Android]`
 - Installer will be placed in the `Final` directory
+- Android Specific: `keytool` was used as follows to generate a generic keystore for the Android build products:  
+	- `keytool -genkey -v -keystore ./<appname>.keystore -alias NiVKey -keyalg RSA -keypass android -storepass android -keysize 2048 -validity 10000`
+
 

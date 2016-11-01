@@ -81,7 +81,7 @@ XnSensor::XnSensor(XnBool bResetOnStartup /* = TRUE */, XnBool bLeanInit /* = FA
 	m_CmosBlankingUnits(XN_MODULE_PROPERTY_CMOS_BLANKING_UNITS, "BlankingUnits", NULL),
 	m_CmosBlankingTime(XN_MODULE_PROPERTY_CMOS_BLANKING_TIME, "BlankingTime", NULL),
 	m_Reset(XN_MODULE_PROPERTY_RESET, "Reset"),
-	m_Version(XN_MODULE_PROPERTY_VERSION, "Version", &m_DevicePrivateData.Version, sizeof(m_DevicePrivateData.Version), NULL),
+	m_Version(XN_MODULE_PROPERTY_VERSION, "Version", &(m_DevicePrivateData.Version), sizeof(m_DevicePrivateData.Version), NULL),
 	m_FixedParam(XN_MODULE_PROPERTY_FIXED_PARAMS, "FixedParams", NULL),
 	m_ID(XN_MODULE_PROPERTY_SERIAL_NUMBER, "ID"),
 	m_DeviceName(XN_MODULE_PROPERTY_PHYSICAL_DEVICE_NAME, "PhysicalDeviceName"),
